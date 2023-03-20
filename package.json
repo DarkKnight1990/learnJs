@@ -1,0 +1,14 @@
+{
+  "name": "learnJs",
+  "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
